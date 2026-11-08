@@ -1,0 +1,32 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Access Control Gates",
+    "description": "Owner and admin controlled dimension access, structure zones, and PvP rules.",
+    "uuid": "d4b77f6b-7c74-4df4-a2d2-0a5f4e73b8e1",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 80]
+  },
+  "modules": [
+    {
+      "description": "Access Control Gates behavior pack",
+      "type": "data",
+      "uuid": "f00c88c1-9f90-4a8c-9c23-7b8d7f65d4a2",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "Access Control Gates script",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "b5f4ce17-87e7-4f9f-bd1a-9bb9a0d4e9c7",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.17.0"
+    }
+  ]
+}
